@@ -1,14 +1,27 @@
 <header>
-    <app-menu-bar></app-menu-bar>
+  <app-menu-bar></app-menu-bar>
 </header>
 <app-menu-title></app-menu-title>
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      photoCover="https://picsum.photos/380"
+      cardTitle="Novo projeto Angular"
+      cardDescription="Projeto criado com o objetivo de mostrar como utilizar o framework Angular."
+    ></app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      photoCover="https://picsum.photos/400"
+      cardTitle="lorem ipsum"
+    ></app-small-card>
+    <app-small-card
+      photoCover="https://picsum.photos/401"
+      cardTitle="Meus artigos no blog"
+    ></app-small-card>
+    <app-small-card
+      photoCover="https://picsum.photos/402"
+      cardTitle="Tudo sobre programação"
+    ></app-small-card>
   </div>
 </div>
